@@ -1,0 +1,9 @@
+# Ignore everything
+/*
+
+# Except
+!src/
+!.gitignore
+!package.json
+!package-lock.json
+!README.md
