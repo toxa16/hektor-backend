@@ -19,4 +19,9 @@ app.post('/forecast', (req, res) => {
   res.json({ data });
 });
 
+app.post('/email', (req, res) => {
+  console.log(req.body);  // logging
+  res.status(201).send();
+});
+
 module.exports = app;
